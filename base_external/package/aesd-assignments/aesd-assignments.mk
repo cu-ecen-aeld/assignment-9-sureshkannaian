@@ -6,13 +6,19 @@
 ##############################################################
 
 #TODO: Fill up the contents below in order to reference your assignment 3 git contents
-AESD_ASSIGNMENTS_VERSION = 792ead463b73e030bb941cf893f9c5d5b8558829
+AESD_ASSIGNMENTS_VERSION = '8b74b91828289a575978bf7b8ca286ec16c2696e'
 # Note: Be sure to reference the *ssh* repository URL here (not https) to work properly
 # with ssh keys and the automated build/test system.
 # Your site should start with git@github.com:
 AESD_ASSIGNMENTS_SITE = git@github.com:cu-ecen-aeld/assignments-3-and-later-sureshkannaian.git
 AESD_ASSIGNMENTS_SITE_METHOD = git
 AESD_ASSIGNMENTS_GIT_SUBMODULES = YES
+
+#AESD_ASSIGNMENTS_SITE = /home/sureshk/skprojects/5306/week2/assignments-3-and-later-sureshkannaian
+#AESD_ASSIGNMENTS_SITE_METHOD = local
+#AESD_ASSIGNMENTSGIT_SUS = NO
+#AESD_ASSIGNMENTS_MODULE_SUBDIRS=aesd-assignments/
+
 
 define AESD_ASSIGNMENTS_BUILD_CMDS
 	$(MAKE) $(TARGET_CONFIGURE_OPTS) -C $(@D)/finder-app all
