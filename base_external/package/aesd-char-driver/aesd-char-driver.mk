@@ -4,7 +4,7 @@
 #
 ##############################################################
 
-AESD_CHAR_DRIVER_VERSION = '8b74b91828289a575978bf7b8ca286ec16c2696e'
+AESD_CHAR_DRIVER_VERSION = 'fbfe5bd6d81e0de1227c9a7e1b81f3ecc39d3940'
 # Note: Be sure to reference the *ssh* repository URL here (not https) to work properly
 # with ssh keys and the automated build/test system.
 # Your site should start with git@github.com:
